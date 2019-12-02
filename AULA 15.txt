@@ -1,0 +1,50 @@
+			class x objects
+	for example:
+		arquitech of a house = class
+		house = object
+
+		class is the struture
+
+	example:
+		    ------> CAR 1 (object)
+	car (class)
+		    ------> CAR 2 (object)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+			magic methods
+ def __init__():
+     ----> atributtes of the class
+
+ example:
+
+	class Car:
+	   def __init__(*self*, model (atributes), price):
+	(self is reference)
+	   
+ in Python we need to declair the variable and the ""key""
+	example:
+		self.model = model
+
+ init is the definition of the atributes
+
+.__str__():
+   -----> is a magic method to convert number in strings (texts)
+
+always put a "self" to "call/reference" an attribute in a class
+
+f = format = form to "connect(concatenar) things"
+self = referente
+
+if inicializate with .__ is a magic method
+
+EXAMPLE:
+	my_car = Car(
+    		color = "Yellow",
+    		model = "Kicks",
+		)
+the COMMON separate the atributes
+pay attention in the smallest things
+
+self comunicate everything in the code
+
