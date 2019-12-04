@@ -1,0 +1,14 @@
+view 
+	rendering pages
+		example: if you 18- can't acess the site
+	rendering datas
+		example: show the page, rendering datas 
+	bussines orders
+
+
+model
+	comunication with data base
+
+template
+	 HTML
+	 structure of your web-site
