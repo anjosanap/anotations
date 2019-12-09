@@ -1,0 +1,82 @@
+	framework 
+clean your code, organize your code and make your actions more easy
+
+	when framework is necessary?!
+if you want to create a dinamic site, with a system, etc ----> select a framework
+
+* Django helped with a creation of web-site 
+* Python can be use to read lids/leades*(incorrect)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 					MTV
+view 
+	rendering pages
+		example: if you 18- can't acess the site
+	rendering datas
+		example: show the page, rendering datas 
+	bussines orders
+
+
+model
+	comunication with data base
+
+template
+	 HTML
+	 structure of your web-site~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+pip install -r requiriments.txt = install all of things in your requiriments (great if you clone or download an project in GitHub)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	how can I create a URL?
+	how can I show in my site "Welcome to the blog"?
+
+go to URLs (code .)
+create a new rote
+	path(" ") (nule)
+now go to VIEW
+	code a rendering
+	def example(request): 
+	(always put a request, because request works with HTTP)
+		return render(request, "home.html")
+	(rendering the request, always use request, because you need to rendering in the navigator)	
+	create in your folder TEMPLATES:
+	home.index
+
+import view to urls 
+	from post import views	
+	views.home
+
+in views (create variables)
+	create a variable 'post' and in dictionary
+	posts =  {
+		"name" = "title"
+		"name" = "title"
+}
+
+to show a context in HTML you need to use {{}}
+
+URLs folder
+	to create rotes
+
+context create for possibility comunication with TEMPLATES - VIEWS
+{{}} - everything with relation with context (variable)
+{% %} - Django template (python language in template)
+
+	{% if name == 'Ana'%}
+		<h1> Bem vinda, etc etc {{name}}</h1>
+	{%endif%} ----> (finalize the *if*)
+
+always ask:
+	Can I do this({%%}) in View?
+		if yes, do
+		else, do in Templates
+
+create a folder static in posts
+	style.css (classic css)
+
+how to call a static item in html
+	{% load static%} = to load files in html
+	to call django language in html
+		link (classic css)[...]href="{% static 'style.css'%}

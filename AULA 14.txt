@@ -1,0 +1,82 @@
+API
+	integration between systems 
+	comunication between systems
+		example:
+		Google Maps with Uber
+
+I can create my API (generic)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+				to add
+	people.update({"work": True})
+	people["other thing": "oi"]
+
+	remove
+	people.pop("")
+
+tuples
+	tuples are immutable
+	example = ("example2")
+	.count	
+		to count in Python with tuple
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+				class = object
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~					to organize 
+functions done in Pyhton
+
+example.__add__(example) = to add in python
+example
+	number = 4
+	number.__add__(3)
+	7
+
+example.__gt__(example) = to "compare": "is bigger?"
+example
+	number = 4
+	number.__gt__(5)
+	False
+
+example.__lt__(example) = "is smaller?"
+	number = 4
+	number.__lt__(5)
+	True
+
+example.__mul__(example) = multiplicate
+	number = 4
+	number.__mul__(5)
+	20
+
+example.__pow__(example) = potency
+	number = 4
+	number.__pow__(5)
+	1024
+
+example.__mod__(example) = division rest
+	number = 4
+	number.__mod__(5)
+	4
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			structures in Python
+	tuples
+	list
+	dictionary
+	functions (def)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+				OOP
+OOP, procedural, functional are *paradigms*
+
+*class
+*method
+*object
+
+It's a form to think
+to structure the code
+
+* variable can be the solution of my problem
+
+fuction need to be defined
+code basically need to be imutable
+
+OOP ---> transform real things in code
+	example:
+		work with salary in real life ---> transform this "work" in a system with code(Python)

@@ -1,0 +1,68 @@
+* Python has a lot of librarys
+
+Jupyter is a library ***read data base***
+
+framework is the "brother", he's make life better because make hard actions easy.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+we need to create a virtual enviroment
+
+	command to create a virtual enviroment:
+	   " python venv -m (= make) example(env)" 
+
+	to activate your VENV (virtual enviroment) write:
+	     "source env/scripts/activate"
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+	with your VENV created, you need to install                          libraries to your project
+
+pip install = install libraries
+pip freeze = show your libraries
+pip freeze > requirements.txt = show your libraries in an "document.txt" (this make lifes better (people who clone or download your code will be happy with your action))
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+			Django
+
+to show commands in django:
+	django-admin --help
+
+to use django commands write: 
+	django-admin
+
+to create a project with django:
+	django-admin startproject blog .
+	put . to create the project and all things you create and anything will to your project and not to generic projec
+
+open/use in VSCode, is better.
+
+to run your code with Django(you NEED to be in your local project):
+	python manage.py runserver
+
+other option:
+	python manage.py runserver 9000
+
+* manage.py = possibility (obr: run the project) config django, creation data base
+
+* developer focus on the logic
+
+to create application:
+	django-admin  startapp posts(posts = example name)
+with you app created you need to put your name's app in settings.py ------> INSTALLED_APPS = 
+	
+if you go to urls.py you see:
+	urlpatterns = [
+    path('admin/', admin.site.urls),
+]
+
+and now, if you go to your page (runserver etc etc) = localhost:8000/admin you created a admin page
+
+applications:
+	in your folder app (post)
+	create a folder template
+		structures frontend (HTML)
+	create a folder static
+		dinamics "functions" (CSS, JavaScript)
